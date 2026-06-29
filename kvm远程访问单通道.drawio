@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="lhcR9sknI6MUUi-DFrhX">
+    <mxGraphModel dx="1178" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-1" edge="1" parent="1" source="SiTipomrKCjQUOFg4Fu0-6" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="380" as="sourcePoint" />
+            <mxPoint x="530" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="KVM设备" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="远程通道" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="SiTipomrKCjQUOFg4Fu0-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="380" as="sourcePoint" />
+            <mxPoint x="530" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="控制器" vertex="1">
+          <mxGeometry height="30" width="80" x="280" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-15" edge="1" parent="1" source="SiTipomrKCjQUOFg4Fu0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="SiTipomrKCjQUOFg4Fu0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="KVM云服务" vertex="1">
+          <mxGeometry height="40" width="300" x="170" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.432;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="293.40000000000003" y="365" as="sourcePoint" />
+            <mxPoint x="292.99999999999994" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. 鉴权" vertex="1">
+          <mxGeometry height="30" width="20" x="270" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#f91f1f, #ededed);" value="2. 定期鉴权" vertex="1">
+          <mxGeometry height="30" width="20" x="320" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.432;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=light-dark(#f91f1f, #ededed);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340.40000000000003" y="365" as="sourcePoint" />
+            <mxPoint x="339.99999999999994" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="每隔5秒" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="GoodCloud云服务" vertex="1">
+          <mxGeometry height="40" width="400" x="120" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SiTipomrKCjQUOFg4Fu0-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="检查账号是否退出" vertex="1">
+          <mxGeometry height="30" width="100" x="330" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
