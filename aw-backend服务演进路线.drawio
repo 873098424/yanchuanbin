@@ -589,7 +589,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0g1S9gdmUVO7WLvxJ7rg" name="第 2 页">
-    <mxGraphModel dx="2241" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2281" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -605,7 +605,7 @@
         <mxCell id="qTp-mlvc-MLMDyRrHCte-165" edge="1" parent="1" source="qTp-mlvc-MLMDyRrHCte-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" target="qTp-mlvc-MLMDyRrHCte-146">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qTp-mlvc-MLMDyRrHCte-143" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="Gateway-Service" vertex="1">
+        <mxCell id="qTp-mlvc-MLMDyRrHCte-143" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="API Gateway-Service" vertex="1">
           <mxGeometry height="50" width="550" x="-110" y="410" as="geometry" />
         </mxCell>
         <mxCell id="qTp-mlvc-MLMDyRrHCte-166" edge="1" parent="1" source="qTp-mlvc-MLMDyRrHCte-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" target="qTp-mlvc-MLMDyRrHCte-152">
@@ -624,31 +624,37 @@
           <mxGeometry height="53" width="140" x="270" y="507" as="geometry" />
         </mxCell>
         <mxCell id="qTp-mlvc-MLMDyRrHCte-167" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="83" width="550" x="-108" y="720" as="geometry" />
+          <mxGeometry height="97.94999999999992" width="550" x="-108" y="717" as="geometry" />
         </mxCell>
         <mxCell id="qTp-mlvc-MLMDyRrHCte-152" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="70" width="550" as="geometry" />
-        </mxCell>
-        <mxCell id="qTp-mlvc-MLMDyRrHCte-155" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="Redis&amp;nbsp;" vertex="1">
-          <mxGeometry height="35" width="80" x="45" y="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="qTp-mlvc-MLMDyRrHCte-156" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="Mysql" vertex="1">
-          <mxGeometry height="35" width="80" x="135" y="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="qTp-mlvc-MLMDyRrHCte-157" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="MongoDB" vertex="1">
-          <mxGeometry height="35" width="80" x="225" y="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="qTp-mlvc-MLMDyRrHCte-158" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="RabbitMQ" vertex="1">
-          <mxGeometry height="35" width="80" x="345" y="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="qTp-mlvc-MLMDyRrHCte-159" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="OpenSearch" vertex="1">
-          <mxGeometry height="35" width="80" x="445" y="17.5" as="geometry" />
+          <mxGeometry height="90" width="550" as="geometry" />
         </mxCell>
         <mxCell id="qTp-mlvc-MLMDyRrHCte-188" parent="qTp-mlvc-MLMDyRrHCte-167" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="独立数据库" vertex="1">
-          <mxGeometry height="30" width="75" x="108" y="46.5" as="geometry" />
+          <mxGeometry height="33.614457831325296" width="75" x="136" y="64.3433734939759" as="geometry" />
         </mxCell>
-        <mxCell id="qTp-mlvc-MLMDyRrHCte-197" parent="qTp-mlvc-MLMDyRrHCte-167" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="共享GoodCloud数据库" vertex="1">
-          <mxGeometry height="30" width="132" x="378" y="46.5" as="geometry" />
+        <mxCell id="qTp-mlvc-MLMDyRrHCte-230" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="56.024096385542165" width="286" x="8" y="15.686746987951807" as="geometry" />
+        </mxCell>
+        <mxCell id="qTp-mlvc-MLMDyRrHCte-231" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="Redis&amp;nbsp;" vertex="1">
+          <mxGeometry height="39.21686746987952" width="80" x="20" y="24.65060240963855" as="geometry" />
+        </mxCell>
+        <mxCell id="qTp-mlvc-MLMDyRrHCte-232" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="Mysql" vertex="1">
+          <mxGeometry height="39.21686746987952" width="80" x="110" y="24.65060240963855" as="geometry" />
+        </mxCell>
+        <mxCell id="qTp-mlvc-MLMDyRrHCte-233" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="MongoDB" vertex="1">
+          <mxGeometry height="39.21686746987952" width="80" x="200" y="24.65060240963855" as="geometry" />
+        </mxCell>
+        <mxCell id="qTp-mlvc-MLMDyRrHCte-235" parent="qTp-mlvc-MLMDyRrHCte-167" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="共享GoodCloud数据库" vertex="1">
+          <mxGeometry height="33.61" width="132" x="375" y="64.33999999999992" as="geometry" />
+        </mxCell>
+        <mxCell id="qTp-mlvc-MLMDyRrHCte-236" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="56.02" width="200" x="338" y="15.690000000000055" as="geometry" />
+        </mxCell>
+        <mxCell id="qTp-mlvc-MLMDyRrHCte-237" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="RabbitMQ" vertex="1">
+          <mxGeometry height="39.21686746987952" width="80" x="350" y="24.650602409638623" as="geometry" />
+        </mxCell>
+        <mxCell id="qTp-mlvc-MLMDyRrHCte-238" parent="qTp-mlvc-MLMDyRrHCte-167" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="OpenSearch" vertex="1">
+          <mxGeometry height="39.21686746987952" width="80" x="440" y="24.650602409638623" as="geometry" />
         </mxCell>
         <mxCell id="qTp-mlvc-MLMDyRrHCte-177" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="能力&lt;div&gt;接入&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-120" y="605" as="geometry" />
@@ -685,7 +691,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qTp-mlvc-MLMDyRrHCte-151" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="aw-backend服务" vertex="1">
-          <mxGeometry height="30" width="106" x="112" y="640" as="geometry" />
+          <mxGeometry height="30" width="106" x="110" y="647" as="geometry" />
         </mxCell>
         <mxCell id="qTp-mlvc-MLMDyRrHCte-170" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="视频传输接入" vertex="1">
           <mxGeometry height="40" width="110" x="-65" y="600" as="geometry" />
